@@ -1,0 +1,7 @@
+git init
+git status
+git add .
+git commit -m "Your commit message"
+git remote add origin https://github.com/LakerTheLei/WebGLPractice.git
+git remote -v
+git push -u origin master/git push -u origin main
