@@ -29,3 +29,6 @@ function main() {
     gl.clear(gl.COLOR_BUFFER_BIT);
     gl.drawArrays(gl.POINTS, 0, 1);
 }
+
+//知识点：
+//1.WebGL的坐标系映射到Canvas坐标系，对于WebGL的(x,y,z,w)，对应Canvas上，y轴向上，x轴向右。

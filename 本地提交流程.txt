@@ -4,4 +4,5 @@ git add .
 git commit -m "Your commit message"
 git remote add origin https://github.com/LakerTheLei/WebGLPractice.git
 git remote -v
+git pull origin main --allow-unrelated-histories//把远程的和本地的合并了
 git push -u origin master/git push -u origin main
