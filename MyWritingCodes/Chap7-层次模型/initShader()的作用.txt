@@ -1,0 +1,7 @@
+1.创建着色器对象(gl.createShader())
+2.向着色器对象中填充着色器程序的源代码（gl.ShaderSource）()
+3.编译着色器程序（gl.compileShader）()
+4.创建程序对象（gl.createProgram）()
+5.为程序对象分配着色器对象（gl.attachShader）()
+6.链接程序对象（gl.linkProgram）()
+7.使用程序对象（gl.useProgram）()
